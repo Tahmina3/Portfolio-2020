@@ -4,9 +4,10 @@ https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 
 body   {
     overflow-x: hidden;                                        /* source: Nick Craver https://stackoverflow.com/questions/2594389/hide-html-horizontal-but-not-vertical-scrollbar*/
-    background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);    text-align: justify;                                       /*justify the text*/
+    background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
+    text-align: justify;                                       /*justify the text*/
     font-family: 'Raleway', sans-serif;                        /**/
-        }
+}
 
         /*
 .title {
@@ -16,9 +17,8 @@ body   {
      color: #005F63;
      text-align: center;
      font-size: 40px;
-           }
-
-           */
+}
+*/
 
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -89,11 +89,11 @@ body   {
   width: 25%;
 }
 
-
-
-.circle {
-    border-radius: 50%;
+.logo {
+  position: relative;
+margin-left: 25%;
 }
+
 
 .hidden {
     display: none;
@@ -104,17 +104,16 @@ body   {
 .buttons {
     border-radius: 5px;
     padding: 15px 25px;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     margin: 20px;
     color: #E4F4F3 ;
-    position: relative;
     display: inline-block;
     background-color: #53B06D ;
     box-shadow: #212121 ;
   }
 
-  .buttons:active {
+  .buttons:active{
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
     box-shadow: 0px 3px 0px 0px;
@@ -127,28 +126,164 @@ body   {
   
   .btn:hover {
     background-color: #53B06D ;
-    font-size: 24px;
+    font-style: bold;
+  }
+
+  .viewportfolio {
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #E4F4F3 ;
+    background-color: rgb(144, 185, 196) ;
+    box-shadow: #212121 ;
+  }
+
+  .viewportfolio:hover {
+    background-color: #53B06D ;
+
   }
 
 
+/* Social media links */
 
+.social  {
+
+}
+
+.sociallink  {
+text-decoration: none;
+color: #212121;
+width: 20%;
+text-align: center;
+}
+
+/* when the mouse is over the social media links*/
+.socialli .sociallink:hover {    
+
+}
+
+.socialicon{
+width: 20px;
+height: 20px;
+}
 
 
 }
 
 
-/* Desktop version */
 
 
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+
+
+
+
+
+/* Tablets and Desktop version */
+@media (min-width: 768px) {
+
+
+
+
+
+  .open,
+.close {
+  display: inline-block;
+  padding: 20px 0 0 20px;
+  cursor: pointer;
+  font-size: 70px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.95;
+  overflow-x: hidden;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.overlay-content a {
+  font-size: 50px;
+  color: #E4F4F3 ;
+  display: block;
+  padding: 10px;
+  margin-bottom: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+  position: relative;
+}
+.overlay-content a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #212121 ;
+  transition: 0.3s;
+  display: block;
+}
+.overlay-content a:hover {
+  color: #E4F4F3  ;
+}
+
+.overlay-content a:hover:after {
+  width: 25%;
+}
+
+.logo {
+  position: relative;
+margin-left: 25%;
+}
+
+
+
+
+
+.name {
+  display: none;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.social {
   
+}
+.sociallink  {
+  text-decoration: none;
+  color: #212121;
+  width: 20%;
+  text-align: center;
+  }
+
+  .sociallink:hover {
+    visibility:visible;
+  }
+
+.socialicon{
+  width: 50px;
+  height: 50px;
+  }
     
   }
 
-
-  @media (min-width: 1281px) {
-  
-    
-  }
