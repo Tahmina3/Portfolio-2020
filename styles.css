@@ -6,40 +6,44 @@ body   {
     overflow-x: hidden;                                        /* source: Nick Craver https://stackoverflow.com/questions/2594389/hide-html-horizontal-but-not-vertical-scrollbar*/
     background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
     text-align: justify;                                       /*justify the text*/
-    font-family: 'Raleway', sans-serif;                        /**/
+    font-family: 'Raleway', sans-serif; 
+    height: 100%;
 }
 
-        /*
-.title {
-     width: 100%;
-     margin-top: 0px;
-     background-color: #e4f4f3;
-     color: #005F63;
-     text-align: center;
-     font-size: 40px;
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(10, 90px ) ;
+  grid-template-rows: repeat(7, 90px ) ;
+  background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
 }
-*/
+
+.box {
+  background-color: rgb(125, 201, 231);
+  color: #fff;
+}
+
 
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-
+/*
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Humburger menu https://codepen.io/renato2016/pen/yLBxrWp */
 .open,
 .close {
   display: inline-block;
-  padding: 20px 0 0 20px;
   cursor: pointer;
   font-size: 70px;
   color: #212121;
   text-decoration: none;
   transition: 0.5s;
+  width:100%;    
 }
 
 .overlay {
@@ -51,6 +55,7 @@ body   {
   overflow-x: hidden;
   height: 100%;
   transition: 0.5s;
+  padding-top: 10px;
 }
 
 .overlay-content {
@@ -64,7 +69,7 @@ body   {
   color: #E4F4F3 ;
   display: block;
   padding: 10px;
-  margin-bottom: 4px;
+  /*margin-bottom: 4px;*/
   text-decoration: none;
   transition: 0.3s;
   position: relative;
@@ -90,21 +95,62 @@ body   {
 }
 
 .logo {
+  grid-column: 3 / 5 ;
   position: relative;
-margin-left: 25%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 
 .hidden {
-    display: none;
+  display: none;
 }
 
+.name {
+  grid-column: 2 / 6 ;
+  grid-row: 3 ;
+  font-size: 30px;
+  color: #005F63;
+  text-align: center;
+}
+
+
+.viewportfolio {
+  padding-top: 25px;
+  background-color: rgb(144, 185, 196) ;
+  font-size: 24px;
+  text-align: center;
+  /*box-shadow: #212121 ; */
+  grid-column: 2 / 6 ;
+  grid-row: 4 ;
+}
+
+.viewportfolio:hover {
+  background-color: #53B06D ;
+}
+
+
+.viewp {
+  text-decoration: none;
+  color: #212121 ;
+  text-align: center;
+}
+
+.download {
+  grid-column: 3 / 5;
+  grid-row: 5;
+
+  }
+
+  .download :hover {
+    font-size: 30px;
+  }
 
 /* For buttons styles https://codepen.io/benngagne/pen/bCkyr*/
 .buttons {
     border-radius: 5px;
-    padding: 15px 25px;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     margin: 20px;
     color: #E4F4F3 ;
@@ -129,28 +175,8 @@ margin-left: 25%;
     font-style: bold;
   }
 
-  .viewportfolio {
-    padding: 15px 25px;
-    font-size: 22px;
-    text-decoration: none;
-    margin: 20px;
-    color: #E4F4F3 ;
-    background-color: rgb(144, 185, 196) ;
-    box-shadow: #212121 ;
-  }
-
-  .viewportfolio:hover {
-    background-color: #53B06D ;
-
-  }
-
 
 /* Social media links */
-
-.social  {
-
-}
-
 .sociallink  {
 text-decoration: none;
 color: #212121;
@@ -159,13 +185,32 @@ text-align: center;
 }
 
 /* when the mouse is over the social media links*/
-.socialli .sociallink:hover {    
+.socialmedia {
+  grid-column: 3 / 5;
+  grid-row: 6;
+  padding-top: 60px;
+  }
 
+  .sul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    }
+
+.sociallist .sociallink {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 12px;
+  width: 25%;
+  float: left;
 }
 
 .socialicon{
 width: 20px;
 height: 20px;
+border-radius: 50%;
 }
 
 
@@ -260,6 +305,9 @@ margin-left: 25%;
 
 .name {
   display: none;
+  grid-row-start: 4;
+  grid-column: 2/8;
+
 }
 
 .circle {
