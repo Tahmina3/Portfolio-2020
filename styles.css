@@ -112,10 +112,10 @@ body   {
 .logo {
   grid-column: 3 / 7 ;
   position: relative;
-  font-size: 14px;
+  font-size: 30px;
   text-align: center;
   font-weight: bolder;
-  padding-top: 5px;
+  padding-top: 18px;
   padding-left: 0px;
 }
 
@@ -137,7 +137,7 @@ body   {
 .name {
   grid-column: 3 / 6 ;
   grid-row: 2 ;
-  font-size: 14px;
+  font-size: 40px;
   color: #005F63;
   text-align: center;
 }
@@ -146,9 +146,9 @@ body   {
 .viewportfolio {
   padding-top: 0px;
   background-color: rgb(144, 185, 196) ;
-  font-size: 8px;
+  font-size: 24px;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 0px;
   /*box-shadow: #212121 ; */
   grid-column: 3 / 7 ;
   grid-row: 4 ;
@@ -175,26 +175,27 @@ body   {
 /* For buttons styles https://codepen.io/benngagne/pen/bCkyr*/
 .buttons {
     border-radius: 5px;
-    font-size: 6px;
+    font-size: 18px;
     text-decoration: none;
     margin: 0px;
     color: #E4F4F3 ;
     display: inline-block;
     background-color: #53B06D ;
     box-shadow: #212121 ;
-    height: 15px;
-    padding-top: 10px;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .buttons:active{
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
-    box-shadow: 0px 2px 0px 0px;
+    box-shadow: 0px 3px 0px 0px;
   }
 
   .btn {
     background-color: #53B06D ;
-    box-shadow: 0px 3px 0px 0px #212121;
+    box-shadow: 0px 5px 0px 0px #212121;
   }
   
   .btn:hover {
@@ -235,8 +236,8 @@ text-align: center;
 }
 
 .socialicon{
-width: 10px;
-height: 10px;
+width: 20px;
+height: 20px;
 border-radius: 50%;
 }
 
