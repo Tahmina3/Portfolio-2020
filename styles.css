@@ -13,8 +13,8 @@ body   {
 
 .grid {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(10, 90px ) ;
+  grid-gap: 5px;
+  grid-template-columns: repeat(10, 17px ) ;
   grid-template-rows: repeat(6, 90px ) ;
   background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
 }
@@ -34,7 +34,7 @@ body   {
   }   
  
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 360px) and (max-width: 767px) {
 
 /*
 * {
