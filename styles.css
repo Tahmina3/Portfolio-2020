@@ -34,7 +34,7 @@ body   {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(7, 102px) ;
-    grid-template-rows: repeat(8, 160px ) ;
+    grid-template-rows: repeat(8, 155px ) ;
     background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
   }
 
@@ -148,7 +148,7 @@ body   {
   background-color: rgb(144, 185, 196) ;
   font-size: 40px;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 40px;
   /*box-shadow: #212121 ; */
   grid-column: 3 / 6 ;
   grid-row: 5;
@@ -168,7 +168,6 @@ body   {
 .download {
   grid-column: 3 / 6;
   grid-row: 6;
-  margin-top: 12px;
 
   }
 
@@ -184,7 +183,8 @@ body   {
     box-shadow: #212121 ;
     height: 90px;
     margin-top: 20px;
-    padding-top: 20px;
+    margin-left: 40px;
+    padding-top: 40px;
   }
 
   .buttons:active{
