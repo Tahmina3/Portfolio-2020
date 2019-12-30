@@ -29,13 +29,13 @@ body   {
  
 
 
-  @media (min-width: 320px) {
+  @media (min-width: 360px) {
 
     .grid {
       display: grid;
       grid-gap: 5px;
-      grid-template-columns: repeat(7, 43px) ;
-      grid-template-rows: repeat(8, 55px ) ;
+      grid-template-columns: repeat(7, 45px) ;
+      grid-template-rows: repeat(8, 61px ) ;
       background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
     }
   
@@ -43,7 +43,7 @@ body   {
   .close {
     display: inline-block;
     cursor: pointer;
-    font-size: 60px;
+    font-size: 50px;
     color: #212121;
     text-decoration: none;
     transition: 0.5s;
@@ -61,7 +61,7 @@ body   {
     overflow-x: hidden;
     height: 100%;
     transition: 0.5s;
-    padding-top: 0px;
+    padding-top: 10px;
   }
   
   .overlay-content {
@@ -74,7 +74,7 @@ body   {
     font-size: 50px;
     color: #E4F4F3 ;
     display: block;
-    padding: 0px;
+    padding-top: 30px;
     /*margin-bottom: 4px;*/
     text-decoration: none;
     transition: 0.3s;
