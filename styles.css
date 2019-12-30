@@ -28,6 +28,228 @@ body   {
   }   
  
 
+
+  @media (min-width: 320px) {
+
+    .grid {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: repeat(7, 43px) ;
+      grid-template-rows: repeat(8, 55px ) ;
+      background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
+    }
+  
+  .open,
+  .close {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 60px;
+    color: #212121;
+    text-decoration: none;
+    transition: 0.5s;
+    width:100%;   
+    margin-top: 0px;
+   
+  }
+  
+  .overlay {
+    position: fixed;
+    width: 0;
+    top: 0;
+    background-color: #005F63 ;
+    opacity: 0.95;
+    overflow-x: hidden;
+    height: 100%;
+    transition: 0.5s;
+    padding-top: 0px;
+  }
+  
+  .overlay-content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlay-content a {
+    font-size: 50px;
+    color: #E4F4F3 ;
+    display: block;
+    padding: 0px;
+    /*margin-bottom: 4px;*/
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+  }
+  .overlay-content a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+    height: 3px;
+    background: #212121 ;
+    transition: 0.3s;
+    display: block;
+  }
+  .overlay-content a:hover {
+    color: #E4F4F3  ;
+    
+  }
+  
+  .overlay-content a:hover:after {
+    width: 25%;
+  }
+  
+  .logo {
+    grid-column: 3 / 6 ;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 0px;
+  }
+  
+  .logolink {
+    text-decoration: none;
+    color: #212121;
+  }
+  
+  
+  .textshow {
+    display: none;
+  }
+  
+  .circle {
+    display: none;
+  }
+  
+  
+  .name {
+    grid-column: 3 / 6 ;
+    grid-row: 3/4 ;
+    font-size: 30px;
+    color: #005F63;
+    text-align: center;
+  }
+  
+  
+  .viewportfolio {
+    padding-top: 0px;
+    background-color: rgb(144, 185, 196) ;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    /*box-shadow: #212121 ; */
+    grid-column: 3 / 6 ;
+    grid-row: 5;
+  }
+  
+  .viewportfolio:hover {
+    background-color: #53B06D ;
+  }
+  
+  
+  .viewp {
+    text-decoration: none;
+    color: #212121 ;
+    text-align: center;
+  }
+  
+  .download {
+    grid-column: 3 / 6;
+    grid-row: 6;
+  
+    }
+  
+  /* For buttons styles https://codepen.io/benngagne/pen/bCkyr*/
+  .buttons {
+      border-radius: 5px;
+      font-size: 14px;
+      text-decoration: none;
+      margin: 0px;
+      color: #E4F4F3 ;
+      display: inline-block;
+      background-color: #53B06D ;
+      box-shadow: #212121 ;
+      height: 30px;
+      margin-top: 30px;
+      margin-left: 6px;
+      padding-top: 15px;
+    }
+  
+    .buttons:active{
+      transform: translate(0px, 5px);
+      -webkit-transform: translate(0px, 5px);
+      box-shadow: 0px 3px 0px 0px;
+    }
+  
+    .btn {
+      background-color: #53B06D ;
+      box-shadow: 0px 5px 0px 0px #212121;
+    }
+    
+    .btn:hover {
+      background-color: #53B06D ;
+      font-style: bold;
+    }
+  
+  
+  /* Social media links */
+  .sociallink  {
+  text-decoration: none;
+  color: #212121;
+  width: 20%;
+  text-align: center;
+  }
+  
+  /* when the mouse is over the social media links*/
+  .socialmedia {
+    grid-column: 2 / 7;
+    grid-row: 8;
+    padding-top: 0px;
+    }
+  
+    .sul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: 100%;
+      }
+  
+  .sociallist .sociallink {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 4px;
+    width: 25%;
+    float: left;
+  }
+  
+  .socialicon{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  }
+  
+  
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 720px) {
 
   .grid {
