@@ -142,6 +142,7 @@ body   {
     text-align: center;
     padding-top: 20px;
     /*box-shadow: #212121 ; */
+    border-radius: 5px;
     grid-column: 3 / 6 ;
     grid-row: 5;
   }
@@ -182,17 +183,15 @@ body   {
     .buttons:active{
       transform: translate(0px, 5px);
       -webkit-transform: translate(0px, 5px);
-      box-shadow: 0px 3px 0px 0px;
+      box-shadow: 0px 5px 0px 0px #212121;
     }
   
     .btn {
-      background-color: #53B06D ;
       box-shadow: 0px 5px 0px 0px #212121;
     }
     
     .btn:hover {
       background-color: #53B06D ;
-      font-style: bold;
     }
   
   
