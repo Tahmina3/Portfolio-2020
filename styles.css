@@ -9,6 +9,7 @@ body   {
     font-family: 'Raleway', sans-serif; 
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -107,7 +108,7 @@ body   {
     font-size: 40px;
     text-align: center;
     font-weight: bolder;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 0px;
   }
   
@@ -148,13 +149,14 @@ body   {
   }
   
   .viewportfolio:hover {
-    background-color: #53B06D ;
+    background-color: #631A00 ;
   }
   
   
   .viewp {
     text-decoration: none;
     color: #212121 ;
+    font-style: bold;
     text-align: center;
   }
   
@@ -172,7 +174,7 @@ body   {
       margin: 0px;
       color: #E4F4F3 ;
       display: inline-block;
-      background-color: #53B06D ;
+      background-color: #631A00 ;
       box-shadow: #212121 ;
       height: 30px;
       margin-top: 30px;
@@ -191,7 +193,7 @@ body   {
     }
     
     .btn:hover {
-      background-color: #53B06D ;
+      background-color: #631A00 ;
     }
   
   
@@ -376,7 +378,7 @@ body   {
 }
 
 .viewportfolio:hover {
-  background-color: #53B06D ;
+  background-color: #631A00 ;
 }
 
 
@@ -400,7 +402,7 @@ body   {
     margin: 0px;
     color: #E4F4F3 ;
     display: inline-block;
-    background-color: #53B06D ;
+    background-color: #631A00 ;
     box-shadow: #212121 ;
     height: 90px;
     margin-top: 20px;
@@ -415,12 +417,12 @@ body   {
   }
 
   .btn {
-    background-color: #53B06D ;
+    background-color: #631A00 ;
     box-shadow: 0px 5px 0px 0px #212121;
   }
   
   .btn:hover {
-    background-color: #53B06D ;
+    background-color: #631A00 ;
     font-style: bold;
   }
 
@@ -597,7 +599,7 @@ border-radius: 50%;
   }
   
   .viewportfolio:hover {
-    background-color: #53B06D ;
+    background-color: #631A00 ;
   }
   
   
@@ -623,7 +625,7 @@ border-radius: 50%;
       text-decoration: none;
       color: #E4F4F3 ;
       display: inline-block;
-      background-color: #53B06D ;
+      background-color: #631A00 ;
       box-shadow: #212121 ;
       height: 50px;
       padding-top: 15px;
@@ -636,13 +638,13 @@ border-radius: 50%;
     }
   
     .btn {
-      background-color: #53B06D ;
+      background-color: #631A00 ;
       box-shadow: 0px 5px 0px 0px #212121;
       width: 100%;
     }
     
     .btn:hover {
-      background-color: #53B06D ;
+      background-color: #631A00 ;
       font-style: bold;
     }
   
