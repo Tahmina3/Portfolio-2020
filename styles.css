@@ -138,7 +138,7 @@ body   {
   
   .viewportfolio {
     padding-top: 0px;
-    background-color: rgb(144, 185, 196) ;
+   /* background-color: rgb(144, 185, 196) ;*/
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
@@ -150,6 +150,7 @@ body   {
   
   .viewportfolio:hover {
     background-color: #631A00 ;
+    color: #E4F4F3;
   }
   
   
@@ -178,7 +179,7 @@ body   {
       box-shadow: #212121 ;
       height: 30px;
       margin-top: 30px;
-      margin-left: 6px;
+      margin-left: 10px;
       padding-top: 15px;
     }
   
