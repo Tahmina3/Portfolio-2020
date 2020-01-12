@@ -12,14 +12,6 @@ body   {
     background-repeat: no-repeat;
 }
 
-
-
-.box {
-
-  /*background-color: rgb(125, 201, 231); */
-  
-}
-
 .download :hover {
   opacity: 0.8;
    }
@@ -29,7 +21,7 @@ body   {
   }   
  
 
-
+/* for small devices - tested on Galaxy A3 2016*/
   @media (min-width: 360px) {
 
     .grid {
@@ -40,6 +32,7 @@ body   {
       background: linear-gradient(0deg, rgba(228,244,243,1) 0%, rgba(0,95,99,1) 100%);
     }
   
+    /*menu code from codepen, but modified*/
   .open,
   .close {
     display: inline-block;
@@ -50,7 +43,6 @@ body   {
     transition: 0.5s;
     width:100%;   
     margin-top: 0px;
-   
   }
   
   .overlay {
@@ -117,7 +109,7 @@ body   {
     color: #212121;
   }
   
-  
+  /*hidden*/
   .textshow {
     display: none;
   }
@@ -137,7 +129,6 @@ body   {
   
   
   .viewportfolio {
-    padding-top: 0px;
    /* background-color: rgb(144, 185, 196) ;*/
     font-size: 20px;
     text-align: center;
@@ -150,15 +141,18 @@ body   {
   
   .viewportfolio:hover {
     background-color: #631A00 ;
-    color: #E4F4F3;
   }
-  
   
   .viewp {
     text-decoration: none;
     color: #212121 ;
     font-style: bold;
     text-align: center;
+  }
+
+  .viewp:hover {
+    background-color: #631A00 ;
+    color: #E4F4F3;
   }
   
   .download {
@@ -252,7 +246,7 @@ body   {
 
 
 
-
+/*for small devices , but a larger screen*/
 @media (min-width: 720px) {
 
   .grid {
