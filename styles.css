@@ -175,11 +175,18 @@ body   {
   
   .circle {
     display: inline;
-    grid-column: 5 / 5 ;
+    grid-column: 7 / 8 ;
     grid-row: 3 ;
     border-radius: 50%;
-    width : 135px;
     }
+
+    .circleabout {
+      display: inline;
+      grid-column: 5 / 5 ;
+      grid-row: 3 ;
+      border-radius: 50%;
+      width : 135px;
+      }
 
   .download {
     grid-column: 3 / 6;
@@ -431,6 +438,13 @@ body   {
   display: none;
 }
 
+.circleabout {
+  display: inline;
+  grid-column: 6 / 7 ;
+  grid-row: 3 ;
+  border-radius: 50%;
+  }
+
 
 .name {
   grid-column: 3 / 6 ;
@@ -681,6 +695,13 @@ h1 {
     border-radius: 50%;
   }
   
+  .circleabout {
+    display: inline;
+    grid-column: 7 / 8 ;
+    grid-row: 3 ;
+    border-radius: 50%;
+    }
+
   h1 {
     grid-column: 2 / 4 ;
     float:left;
