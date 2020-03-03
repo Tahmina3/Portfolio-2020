@@ -36,3 +36,14 @@ if( document.contactForm.Name.value == "" ) {
     }
     return( true );
  }
+
+// Long text
+var text = 'Hello! My name is Tahmina, Junior Web Developer. I love coding.';
+
+// Character limit after which "Read More" will be seen
+var char_limit = 100;
+
+if(text.length < char_limit)
+	console.log( '<div> ' + text + '</div>' );
+else
+	console.log( '<div><span class="shorttext">' + text.substr(0, char_limit) + '</span><span class="longtext">' + text.substr(char_limit) + '</span><span class="text-dots">...</span><span class="read-more-button" data-more="0">Read more</span></div>' );
