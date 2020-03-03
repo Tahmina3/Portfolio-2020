@@ -145,8 +145,16 @@ body   {
   }
   
   .position {
-    grid-column: 3 / 5 ;
+    grid-column: 2 / 4 ;
     grid-row: 3 ;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 14px;
   }
 
   .viewportfolio:hover {
@@ -167,10 +175,11 @@ body   {
   
   .circle {
     display: inline;
-    grid-column: 7 / 8 ;
+    grid-column: 5 / 5 ;
     grid-row: 3 ;
     border-radius: 50%;
-  }
+    width : 135px;
+    }
 
   .download {
     grid-column: 3 / 6;
@@ -211,7 +220,7 @@ body   {
   
 
     .downloadabout {
-      grid-column: 7 / 9 ;
+      grid-column: 5 / 8 ;
       grid-row: 6 ;
       height:30px;
       }
@@ -225,6 +234,7 @@ body   {
       box-shadow: #212121 ;
       padding-top: 15px;
       height: 30px;
+      font-size: 14px;
     }
   
 
@@ -276,25 +286,27 @@ body   {
     width: 100%;
   }
   .form {
-    grid-column: 3 / 6;
-    width: 100%;
+    grid-column:2 / 7;
     color: #212121;
+    font-size:12px;
   }
   
   .submit{
     font-size: 20px; 
     text-align: center; 
     padding-top: 0px;
+    margin-left:35%;
   }
   
   .fieldinput {
-    width: 100%;
-    height: 25px;
+    height: 20px;
+    width: 90%;
     margin-top: 10%;
+    font-size: 14px;
   }
   
   .messagebox {
-    width: 100%;
+    width: 90%;
     height: 60px;
     margin-top: 10%;
   }
