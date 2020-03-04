@@ -157,7 +157,7 @@ body   {
   }
 
   span {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .viewportfolio:hover {
@@ -239,20 +239,38 @@ body   {
       padding-top: 15px;
       height: 30px;
       font-size: 14px;
+      border-radius: 5%;
     }
   
 
     /*About page*/
+    .readmore {
+      max-height: 2em;
+      overflow: hidden;
+      color: rgba(0,0,0,.2);
+      
+      transition: all .5s;
+  }
+  
+  .readmore::before {
+      content: "Read more ...";
+      font-weight: 600;
+      color: initial;
+  }
+  
+  .readmore:hover {
+      color: initial;
+      max-height: 100vh;
+      overflow: initial;
+      text-indent: 30px;
+  }
+  
+  .readmore:hover::before {
+      content: "";
+  }
 
-.longtext {
-	display: none
-}
-
-
-.shorttext {
-  grid-column: 3 / 6;
-  grid-row: 5; 
-}
+  
+  
   /* Social media links */
   
   /* when the mouse is over the social media links*/
