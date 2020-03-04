@@ -270,7 +270,7 @@ body   {
   }
 
   
-  
+
   /* Social media links */
   
   /* when the mouse is over the social media links*/
@@ -537,6 +537,8 @@ span {
     margin-top: 20px;
     margin-left: 40px;
     padding-top: 40px;
+    border-radius: 5%;
+
   }
 
   .buttons:active{
@@ -557,14 +559,32 @@ span {
 
 /*About page*/
 
-.longtext {
-	display: none
+.readmore {
+  max-height: 2em;
+  overflow: hidden;
+  color: rgba(0,0,0,.2);
+  
+  transition: all .5s;
+}
+
+.readmore::before {
+  content: "Read more ...";
+  font-weight: 600;
+  color: initial;
+}
+
+.readmore:hover {
+  color: initial;
+  max-height: 100vh;
+  overflow: initial;
+  text-indent: 30px;
+}
+
+.readmore:hover::before {
+  content: "";
 }
 
 
-.shorttext {
-  grid-column: 3 / 6; 
-}
 
 
 /* Social media links */
@@ -815,6 +835,7 @@ span {
       box-shadow: #212121 ;
       padding-top: 25px;
       height: 50px;
+      border-radius: 5%;
     }
 
   
@@ -846,16 +867,30 @@ span {
     
 /*About page*/
 
-.longtext {
-	display: none
+.readmore {
+  max-height: 2em;
+  overflow: hidden;
+  color: rgba(0,0,0,.2);
+  
+  transition: all .5s;
 }
 
-
-.shorttext {
-  grid-column: 3 / 6;
-  grid-row: 5; 
+.readmore::before {
+  content: "Read more ...";
+  font-weight: 600;
+  color: initial;
 }
 
+.readmore:hover {
+  color: initial;
+  max-height: 100vh;
+  overflow: initial;
+  text-indent: 30px;
+}
+
+.readmore:hover::before {
+  content: "";
+}
 
 
 
