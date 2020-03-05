@@ -1,3 +1,5 @@
+//alert("Hi! Welcome to my portfolio!")
+
 function openNavbar() {
     document.querySelector("#navbar").style.width = "100%";
     document.querySelectorAll(".open")[0].style.opacity = 0;
@@ -9,3 +11,9 @@ function openNavbar() {
   }
 
   
+ //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover_addeventlistener
+ document.getElementById("colourful").addEventListener("mouseover", mouseOver);
+
+function mouseOver() {
+  document.getElementById("colourful").style.color = "#631A00" ;
+}
