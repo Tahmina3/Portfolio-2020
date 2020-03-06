@@ -297,6 +297,257 @@ body   {
 
 
   
+/* Work page */
+
+.openWork1 {
+    display: inline-block;
+    cursor: zoom-in;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #212121;
+    text-decoration: none;
+    transition: 0.5s;
+    width:60%;   
+  }
+
+  .closeWork1 {
+    display: inline-block;
+    cursor: zoom-out;
+    font-size: 24px;
+    color: #212121;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .overlay1 {
+    position: fixed;
+    width: 0;
+    top: 0;
+    background-color: #005F63 ;
+    opacity: 0.98;
+    overflow-x: hidden;
+    height: 45%;
+    transition: 0.5s;
+    font-size: 14px;
+    margin-top: 140px;
+    margin-right: 140px;
+  }
+  
+  .positionWork {
+    grid-column: 2 / 4;
+    width: 450px;
+  }
+
+
+  
+
+/*work2*/
+.openWork2 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork2 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay2 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+
+/*Work 3*/
+.openWork3 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork3 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay3 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+
+/*Work 4*/
+.openWork4 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork4 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay4 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+/*Work 5*/
+.openWork5 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork5 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay5 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+/*Work 6*/
+.openWork6 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork6 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay6 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+/*Work 7*/
+.openWork7 {
+  display: inline-block;
+  cursor: zoom-in;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+  width:60%;   
+}
+
+.closeWork7 {
+  display: inline-block;
+  cursor: zoom-out;
+  font-size: 24px;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.overlay7 {
+  position: fixed;
+  width: 0;
+  top: 0;
+  background-color: #005F63 ;
+  opacity: 0.98;
+  overflow-x: hidden;
+  height: 45%;
+  transition: 0.5s;
+  font-size: 14px;
+  margin-top: 140px;
+  margin-right: 140px;
+}
+
 
   /* Social media links */
   
