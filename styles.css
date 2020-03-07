@@ -326,11 +326,11 @@ body   {
     background-color: #005F63 ;
     opacity: 0.98;
     overflow-x: hidden;
-    height: 45%;
+    height: 35%;
     transition: 0.5s;
     font-size: 14px;
     margin-top: 140px;
-    margin-right: 140px;
+    margin-right: 340px;
   }
   
   .positionWork {
@@ -338,6 +338,17 @@ body   {
     width: 450px;
   }
 
+  /*images size in work page */
+
+.workImages {
+  width: 35%;
+  height: 5%;
+  margin-left: 40px;
+}
+
+p {
+  width:250px;
+}
 
   
 
@@ -1051,7 +1062,7 @@ span {
   }
 
   .position {
-    grid-column: 3 / 5 ;
+    grid-column: 3 / 6 ;
     grid-row: 3 ;
   }
 
@@ -1169,6 +1180,118 @@ span {
 
 
 
+/* Work page */
+
+.openWork1 {
+  font-size: 16px;
+}
+
+.overlay1 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+
+.positionWork {
+  grid-column: 3 / 6;
+}
+
+
+/*images size in work page */
+
+.workImages {
+  width: 20%;
+  height: 10%;
+  margin-left: 15%;
+}
+
+p {
+  width:650px;
+}
+
+/*work2*/
+.openWork2 {
+font-size: 16px; 
+}
+
+.overlay2 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+
+/*Work 3*/
+.openWork3 {
+font-size: 16px;
+width:400px;  
+}
+
+.overlay3 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+
+/*Work 4*/
+.openWork4 {
+font-size: 16px; 
+}
+
+.overlay4 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+/*Work 5*/
+.openWork5 {
+font-size: 16px;
+width:400px;  
+
+}
+
+.overlay5 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+/*Work 6*/
+.openWork6 {
+font-size: 16px;
+}
+
+
+.overlay6 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+
+/*Work 7*/
+.openWork7 {
+font-size: 16px;
+}
+
+.overlay7 {
+  position: fixed;
+  width: 0;
+  height: 50%;
+  font-size: 14px;
+  margin-top: 200px;
+}
+
+
   /* Social media links */
   
   /* when the mouse is over the social media links*/
@@ -1201,24 +1324,30 @@ span {
   }
 
   .form {
-    grid-column: 3 / 8;
-    font-size: 20px;
-    padding-top: 0px;
-margin:0;
+    grid-column: 4 / 8;
   }
-  
+
   .submit{
     font-size: 20px; 
     padding-top: 0px;
-  
+   /* margin-left:35%; */
+    width: 180px;
+    float: right;
   }
   
   .fieldinput {
-    height: 18px;
+    height: 16px;
+    width: 95%;
+    font-size: 14px;
   }
   
   .messagebox {
-    height: 160px;
+    width: 95%;
+    height: 40px;
+  }
+  
+  .label {
+    font-size: 14px;
   }
 
   }
